@@ -7,6 +7,7 @@ Paraméterek, melyeket minden fájlban és az útmutatóban is a megfelelő doma
 * CTID: A konténer ID-je
 * IP: a konténer IP címe `<IP>`
 * Gw: A konténer átjárója `<GW>`
+* Az SSH portja: `<NEWPORT>`
 * Hostname: gl.example.hu
 
 ## CT készítése
