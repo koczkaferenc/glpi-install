@@ -1,0 +1,1 @@
+0 0 * * 0 docker run --rm -v "/etc/letsencrypt:/etc/letsencrypt" certbot/certbot renew --quiet && docker kill -s HUP glpi-app
