@@ -26,7 +26,7 @@ Paraméterek, melyeket minden fájlban és az útmutatóban is a megfelelő doma
 apt update
 apt -y upgrade
 apt -y install mc vim ssh docker.io docker-compose certbot at
-sed -i 's/#Port 22/Port 65061/' /etc/ssh/sshd_config 
+sed -i 's/#Port 22/Port `<NEWPORT>`/' /etc/ssh/sshd_config 
 sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config 
 systemctl restart ssh
 
