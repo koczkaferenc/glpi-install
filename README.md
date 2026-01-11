@@ -58,11 +58,11 @@ Ez után a konténer indítása a ```run``` paranccsal történik.
 1. UPS-ek felvétele
 1. SIM kártyák felvétele
 
-# Nézet beállítások:
+## Nézet beállítások:
 
 Antivirus, sorozatszám.
 
-##Kliensek:
+## Kliensek:
 
 Linux: 
 ```bash
