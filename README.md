@@ -37,7 +37,7 @@ cd /var/docker/glpi.example.hu
 
 ## Certek generlása
 
-A gl.DOMAIN.hu címnek a szervezet külső IP címére kell mutatnia, ez feltétlenül szükséges az érvényes Letsencrypt tanúsítvány létehozásához és a későbbi frissítésekhez.
+A gl.example.hu címnek a szervezet külső IP címére kell mutatnia, ez feltétlenül szükséges az érvényes Letsencrypt tanúsítvány létehozásához és a későbbi frissítésekhez.
 
 Egy cert generálása:
 
