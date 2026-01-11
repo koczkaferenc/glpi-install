@@ -5,8 +5,8 @@ A projekt célja egy GLPI és kapcsolódó adatbázisa, egy nginx proxy telepít
 Paraméterek, melyeket minden fájlban és az útmutatóban is a megfelelő domain névvel kell helyettesíteni:
 
 * CTID: A konténer ID-je
-* IP: a konténer IP címe
-* Gw: A konténer átjárója
+* IP: a konténer IP címe <IP>
+* Gw: A konténer átjárója <GW>
 * Hostname: gl.example.hu
 
 ## CT készítése
@@ -18,8 +18,8 @@ Paraméterek, melyeket minden fájlban és az útmutatóban is a megfelelő doma
 * Disk: 64G
 * Cores: 4
 * RAM: 8192/2048
-* IP: 192.168.1.253/24
-* Gw: 192.168.1.254
+* IP: <IP>/24
+* Gw: <GW>
 
 ## Konténer beállítása
 ```shell
