@@ -26,7 +26,7 @@ Paraméterek, melyeket minden fájlban és az útmutatóban is a megfelelő doma
 ```shell
 apt update
 apt -y upgrade
-apt -y install mc vim ssh docker.io docker-compose certbot at
+apt -y install mc vim ssh docker.io docker-compose certbot at netdiscover
 sed -i 's/#Port 22/Port `<NEWPORT>`/' /etc/ssh/sshd_config 
 sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config 
 systemctl restart ssh
@@ -64,6 +64,11 @@ Ez után a konténer indítása a ```run``` paranccsal történik.
 Antivirus, sorozatszám.
 
 ## Kliensek:
+
+Hostok felderítése:
+```bash
+netdiscover -r 192.168.1.0/24
+```
 
 Linux: 
 ```bash
