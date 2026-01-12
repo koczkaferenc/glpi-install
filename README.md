@@ -63,6 +63,11 @@ Ez után a konténer indítása a ```run``` paranccsal történik.
 
 Antivirus, sorozatszám.
 
+
+## Regisztráció
+
+Az 
+
 ## Kliensek:
 
 Hostok felderítése:
@@ -84,6 +89,10 @@ Restart/Státusz:
 ```bash
 systemctl status glpi-agent
 systemctl restart glpi-agent
+```
+
+```bash
+glpi-agent --server="https://gl.griftools.com/" --logger=stderr --debug
 ```
 
 Windows:
