@@ -31,6 +31,14 @@ sed -i 's/#Port 22/Port `<NEWPORT>`/' /etc/ssh/sshd_config
 sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config 
 systemctl restart ssh
 
+apt full-upgrade -y
+apt autoremove --purge
+sed -i 's/bookworm/trixie/g' /etc/apt/sources.list
+sed -i 's/bookworm/trixie/g' /etc/apt/sources.list.d/*.list
+apt upgrade --without-new-pkgs -y
+apt full-upgrade -y
+apt clean
+
 mkdir -p /var/docker/glpi.example.hu
 cd /var/docker/glpi.example.hu
 ```

@@ -4,4 +4,4 @@ if [ ! -d ./storage/glpi ] ; then
   chown -R 33:33 ./storage/glpi
   chmod -R 775 ./storage/glpi
 fi
-docker-compose up -d
+docker compose up -d
